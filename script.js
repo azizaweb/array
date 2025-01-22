@@ -32,7 +32,8 @@
 //  console.log(people)
 
 let chocolate = ['snikers','twix', 'kitkat','mars' ];
-console.log(chocolate.length)
+
+console.log(chocolate)
 alert(chocolate.length);
 if(confirm('удалить один элемент?')){
     console.log(chocolate.pop())
